@@ -3,4 +3,8 @@
 SRC=~barosl/box/.sys/etc/init/barosl
 DEST=/etc/init/barosl
 
-rm -rf "$DEST" && cp -a "$SRC" "$DEST"
+if [ -d "$DEST" -a -w "$DEST" ]; then
+	rm -rf "$DEST"/* && cp -a "$SRC"/* "$DEST"/
+else
+	rm -rf "$DEST" && cp -a "$SRC" "$DEST"
+fi
