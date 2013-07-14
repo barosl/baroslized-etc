@@ -6,6 +6,3 @@ nameserver 8.8.8.8
 nameserver 8.8.4.4
 ### baroslized settings end ###
 
-nameserver 210.157.1.170
-nameserver 210.157.1.171
-search myvps.jp
