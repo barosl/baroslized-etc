@@ -6,9 +6,9 @@
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
 # / was on /dev/vda1 during installation
-UUID=a05b420f-c4a6-439c-9d7e-149be4add515 /               ext4    errors=remount-ro 0       1
+UUID=c83671e4-8d73-4472-92ca-2fa8c96f21d8 /               ext4    errors=remount-ro 0       1
 # /home was on /dev/vdb1 during installation
-UUID=fda1b3ee-27c0-4c0c-b4e6-1ac7557bb6be /home           ext4    defaults        0       2
+UUID=f22988ca-b36b-42cd-a1a2-1765396503da /home           ext4    defaults        0       2
 
 
 ### Baroslized settings ###
