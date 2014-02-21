@@ -1,4 +1,1 @@
-APT {
-    Install-Recommends "false";
-    Install-Suggests "false";
-}
+APT::Install-Recommends "false";
