@@ -1,6 +1,8 @@
 #!/bin/sh
 
-SRC=~barosl/box/.sys/etc/.local/homura/init
+DIR=$(cd $(dirname $0) && pwd)
+
+SRC=$DIR/..
 DEST=/etc/init/local
 
 if [ -d "$DEST" -a -w "$DEST" ]; then

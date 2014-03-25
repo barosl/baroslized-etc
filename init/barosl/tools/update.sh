@@ -1,6 +1,8 @@
 #!/bin/sh
 
-SRC=~barosl/box/.sys/etc/init/barosl
+DIR=$(cd $(dirname $0) && pwd)
+
+SRC=$DIR/..
 DEST=/etc/init/barosl
 
 if [ -d "$DEST" -a -w "$DEST" ]; then
