@@ -3,7 +3,7 @@
 DIR=$(cd $(dirname $0) && pwd)
 
 SRC=$DIR/..
-DEST=/etc/init/barosl
+DEST=/etc/init/global
 
 if [ -d "$DEST" -a -w "$DEST" ]; then
 	rm -rf "$DEST"/* && cp -a "$SRC"/* "$DEST"/
